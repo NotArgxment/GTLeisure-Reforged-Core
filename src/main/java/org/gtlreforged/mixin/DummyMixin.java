@@ -1,4 +1,4 @@
-package org.example.examplemod.mixin;
+package org.gtlreforged.mixin;
 
 import net.minecraft.world.level.levelgen.WorldgenRandom;
 
