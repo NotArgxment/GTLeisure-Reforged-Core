@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Reference folder with the main coremod files made by Vineflower decompiler
+* /project_reference/

@@ -1,0 +1,56 @@
+{
+  "mappings": {
+    "org/gtlcore/gtlcore/mixin/mc/LevelMixin": {
+      "Lnet/minecraft/world/level/Level;setBlocksDirty(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;)V": "Lnet/minecraft/world/level/Level;m_6550_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;)V"
+    },
+    "org/gtlcore/gtlcore/mixin/ae2/client/ModelBakeryMixin": {
+      "loadModel": "Lnet/minecraft/client/resources/model/ModelBakery;m_119362_(Lnet/minecraft/resources/ResourceLocation;)V"
+    },
+    "org/gtlcore/gtlcore/mixin/ae2/CursedInternalSlotMixin": {
+      "net/minecraft/world/inventory/Slot.hasItem()Z": "Lnet/minecraft/world/inventory/Slot;m_6657_()Z",
+      "doClick": "Lnet/minecraft/world/inventory/AbstractContainerMenu;m_150430_(IILnet/minecraft/world/inventory/ClickType;Lnet/minecraft/world/entity/player/Player;)V",
+      "net/minecraft/world/item/ItemStack.copyWithCount(I)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/world/item/ItemStack;m_255036_(I)Lnet/minecraft/world/item/ItemStack;"
+    },
+    "org/gtlcore/gtlcore/mixin/ae2/gui/CraftConfirmMenuMixin": {
+      "broadcastChanges": "Lappeng/menu/me/crafting/CraftConfirmMenu;m_38946_()V"
+    },
+    "org/gtlcore/gtlcore/mixin/mc/LevelChunkMixin": {
+      "setBlockState": "Lnet/minecraft/world/level/chunk/LevelChunk;m_6978_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)Lnet/minecraft/world/level/block/state/BlockState;",
+      "Lnet/minecraft/world/level/block/state/BlockState;onPlace(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V": "Lnet/minecraft/world/level/block/state/BlockState;m_60696_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V"
+    },
+    "org/gtlcore/gtlcore/mixin/mc/GuiGraphicsMixin": {
+      "renderItemDecorations(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V": "Lnet/minecraft/client/gui/GuiGraphics;m_280302_(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V"
+    },
+    "org/gtlcore/gtlcore/mixin/mc/BufferBuilderAccessor": {
+      "nextElementByte": "f_85652_:I"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "org/gtlcore/gtlcore/mixin/mc/LevelMixin": {
+        "Lnet/minecraft/world/level/Level;setBlocksDirty(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;)V": "Lnet/minecraft/world/level/Level;m_6550_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;)V"
+      },
+      "org/gtlcore/gtlcore/mixin/ae2/client/ModelBakeryMixin": {
+        "loadModel": "Lnet/minecraft/client/resources/model/ModelBakery;m_119362_(Lnet/minecraft/resources/ResourceLocation;)V"
+      },
+      "org/gtlcore/gtlcore/mixin/ae2/CursedInternalSlotMixin": {
+        "net/minecraft/world/inventory/Slot.hasItem()Z": "Lnet/minecraft/world/inventory/Slot;m_6657_()Z",
+        "doClick": "Lnet/minecraft/world/inventory/AbstractContainerMenu;m_150430_(IILnet/minecraft/world/inventory/ClickType;Lnet/minecraft/world/entity/player/Player;)V",
+        "net/minecraft/world/item/ItemStack.copyWithCount(I)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/world/item/ItemStack;m_255036_(I)Lnet/minecraft/world/item/ItemStack;"
+      },
+      "org/gtlcore/gtlcore/mixin/ae2/gui/CraftConfirmMenuMixin": {
+        "broadcastChanges": "Lappeng/menu/me/crafting/CraftConfirmMenu;m_38946_()V"
+      },
+      "org/gtlcore/gtlcore/mixin/mc/LevelChunkMixin": {
+        "setBlockState": "Lnet/minecraft/world/level/chunk/LevelChunk;m_6978_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)Lnet/minecraft/world/level/block/state/BlockState;",
+        "Lnet/minecraft/world/level/block/state/BlockState;onPlace(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V": "Lnet/minecraft/world/level/block/state/BlockState;m_60696_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V"
+      },
+      "org/gtlcore/gtlcore/mixin/mc/GuiGraphicsMixin": {
+        "renderItemDecorations(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V": "Lnet/minecraft/client/gui/GuiGraphics;m_280302_(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V"
+      },
+      "org/gtlcore/gtlcore/mixin/mc/BufferBuilderAccessor": {
+        "nextElementByte": "f_85652_:I"
+      }
+    }
+  }
+}

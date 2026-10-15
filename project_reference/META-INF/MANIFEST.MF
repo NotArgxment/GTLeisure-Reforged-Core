@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: gtlcore
+Specification-Vendor: POWSDSSAG,EasterFG,Maple
+Specification-Version: 1
+Implementation-Title: core
+Implementation-Version: 1.2.2.8-fix2
+Implementation-Vendor: POWSDSSAG,EasterFG,Maple
+Implementation-Timestamp: 2026-02-13T21:57:05+0800
+MixinConfigs: gtlcore.mixin.json
+

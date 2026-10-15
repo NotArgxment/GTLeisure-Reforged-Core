@@ -1,10 +1,10 @@
 {
   "required": true,
-  "package": "com.example.examplemod.mixin",
+  "package": "org.gtlreforged.mixin",
   "compatibilityLevel": "JAVA_17",
   "minVersion": "0.8",
   "mixins": [
-    "DummyMixin"
+    "org.gtlreforged.mixin.DummyMixin"
   ],
   "client": [
   ],
