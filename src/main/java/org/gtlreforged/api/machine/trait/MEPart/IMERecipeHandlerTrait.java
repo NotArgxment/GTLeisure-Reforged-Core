@@ -1,0 +1,25 @@
+package org.gtlreforged.api.machine.trait.MEPart;
+
+import com.gregtechceu.gtceu.api.capability.recipe.IO;
+import com.lowdragmc.lowdraglib.syncdata.ISubscription;
+import org.gtlreforged.api.capability.IMERecipeHandler;
+
+import java.util.function.Predicate;
+
+public interface IMERecipeHandlerTrait<T extends Predicate<S>, S> extends IMERecipeHandler<T, S> {
+
+   IO getIo();
+
+   ISubscription addChangedListener(Runnable var1);
+
+   ISubscription addBufferChangedListener(Runnable var1);
+
+   default int getPriority() {
+      return switch (this.getIo()) {
+         case OUT -> 10;
+         case BOTH -> 5;
+         case IN, NONE -> 0;
+         default -> throw new IncompatibleClassChangeError();
+      };
+   }
+}
